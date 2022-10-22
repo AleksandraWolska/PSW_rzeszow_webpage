@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt</title>
+</head>
+
+<body>
+    <h1>Formularz kontaktowy</h1>
+
+    <section>
+        <form method="post"
+            action="file:///C:/Users/Aleksandra/Desktop/Polibuda/Programowanie%20Systemow%20Webowych/Lab2/webpage/index.html">
+
+            <div>
+                <p>
+                    <label for="firstname">Imię:</label><br>
+                    <input type="text" id="firstname" name="firstname"><br>
+                    <label for="lastname">Nazwisko:</label><br>
+                    <input type="text" id="lastname" name="lastname">
+                </p>
+            </div>
+
+
+            <div>
+                <p>
+                <p><label>Temat zgłoszenia</label></p>
+                <label><input name="topic" type="checkbox" value="topic-idea" checked>Pomysł na ulepszenie w
+                    mieście</label>
+                <label><input name="topic" type="checkbox" value="topic-complaint">Zażalenie</label>
+                <label><input name="topic" type="checkbox" value="topic-administration">Prośba o kontakt z administracją
+                    miasta</label>
+                </p>
+            </div>
+
+
+            <div>
+                <p><label>Ważność sprawy</label></p>
+                <p>
+                    <label><input name="importance" type="radio" value="importance-1" checked>Pilna</label>
+                    <label><input name="importance" type="radio" value="importance-2">Ważna</label>
+                    <label><input name="importance" type="radio" value="importance-3">Mniej ważna</label>
+                </p>
+            </div>
+
+
+            <div>
+                <label for="who">Miejsce zamieszkania osoby strającej sie o kontakt</label>
+                <select id="who">
+                    <optgroup label="Miasto Rzeszów">
+                        <option>Różanka</option>
+                        <option>Drabinianka</option>
+                        <option>Śródmieście</option>
+                        <option>Stare Miasto</option>
+                        <option>Słocina</option>
+                    </optgroup>
+                    <optgroup label="Poza Miastam Rzeszów">
+                        <option>Okręg rzeszowski</option>
+                        <option>Województwo podkarpackie</option>
+                        <option>Żadne z powyższych</option>
+
+                    </optgroup>
+                </select>
+            </div>
+
+
+            <div>
+                <p>
+                    <label for="description">Description</label>
+                    <br>
+                    <textarea name="description" maxlength="200" cols="40" rows="5"
+                        placeholder="Miejsce na zdefiniowanie problemu"></textarea>
+                </p>
+            </div>
+
+
+            <div>
+                <p>
+                    <label>
+                        <p>Pytanie dodatkowe: Jak oceniasz rozwój Rzeszowa?</p>
+                        <select name="course">
+                            <option value="0">Brak opinii</option>
+                            <option value="1">Bardzo dobrze</option>
+                            <option value="2">Dobrze</option>
+                            <option value="3">Średnio</option>
+                            <option value="4">Słabo</option>
+                        </select>
+                    </label>
+                </p>
+            </div>
+
+            <div>
+                <p>
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Clear">
+                </p>
+            </div>
+
+        </form>
+    </section>
+
+    <section>
+        <h3>Masz inną sprawę?</h3>
+        <p>Napisz do nas na pocztę! <a href="mailto:email@gmail.com"><span>Stwórz maila</span></a></p>
+    </section>
+
+</body>
+
+</html>
