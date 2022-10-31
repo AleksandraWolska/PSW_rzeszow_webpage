@@ -1,0 +1,26 @@
+body {
+    background-image: url("../images/statistics-background.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+img {
+    float: left;
+    height: 100px;
+}
+p {
+    clear: left;
+}
+
+
+.table-2 {
+    table-layout: fixed;
+    width: 50%;
+    border-collapse: collapse;
+    border: 3px solid purple;
+  }
+
+th {
+    background-color: aqua;
+}

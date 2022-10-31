@@ -1,0 +1,115 @@
+.welcome-container h1 {
+    font-weight: 800;
+    margin: 0;
+    font-size: clamp(15px, 8vw, 120px);
+  }
+  .welcome-container {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .welcome-text {
+    margin-left: clamp(20px, 11vw, 100px);
+    margin-bottom: 50px;
+    max-width: 60vw;
+  }
+  
+  .socials {
+    position: static;
+    margin: 20px;
+  }
+  
+  .social:hover {
+    transform: scale(1.2);
+    transition: 0.3s ease;
+  }
+  
+  #welcome-section {
+    background: url(images/rzeszow-welcome.png) rgba(255,255,255,.3);
+    background-blend-mode: lighten;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    font-size: 25px;
+  }
+  
+  @media only screen and (max-width: 1614px) {
+    
+  #welcome-section {
+    background-image: url(images/rzeszow-welcome.png);
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:70% 0%;
+    height: 100vh;
+    font-size: 25px;
+  }
+  
+  } 
+  
+  
+  @media only screen and (max-width: 769px) {
+    #welcome-section {
+
+      background-size: cover;
+
+
+      font-size: 25px;
+    }
+  
+    .welcome-container {
+      display: flex;
+  
+      height: 100%;
+  
+      justify-content: flex-end;
+  
+      flex-direction: column;
+    }
+  
+    .welcome-text {
+      justify-content: flex-end;
+      margin-left: clamp(13px, 8vw, 100px);
+      margin-bottom: 50px;
+      max-width: 90vw;
+      font-size: 6vw;
+    }
+  
+    .welcome-text h1 {
+      font-size: 12vw;
+    }
+    .socials {
+      filter: invert();
+      display: flex;
+      align-self: flex-end;
+      
+    }
+    .social {
+      margin: 10px;
+      
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    .welcome-text h1 {
+      font-size: 12vw;
+      margin: 0;
+      padding: 0;
+    }
+  }
+  
+  @media only screen and (min-width: 1940px) {
+    #welcome-section {
+      width: 100%;
+    }
+    .welcome-text h1 {
+      font-size: 8vw;
+    }
+    .welcome-text {
+      font-size: 2vw;
+    }
+  }
+  
