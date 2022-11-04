@@ -187,10 +187,7 @@ li:nth-last-child(2) {
   text-decoration: underline;
 }
 
-.hamburger {
-  display: none;
-  cursor: pointer;
-}
+
 
 @page :first {
   margin-left: 20%;
@@ -219,25 +216,8 @@ li:nth-last-child(2) {
     color: white;
   }
 
-  .hamburger {
-    float: right;
-    display: block;
-    margin: 5px 5px 0px 5px;
-  }
 
-  .menu.opened {
-    position: absolute;
-    right: 10px;
-    top: 70px;
-    width: 45vw;
-  }
 
-  .menu.opened div {
-    float: none;
-    display: block;
-    text-align: center;
-    border-radius: 10px;
-  }
 }
 
 @media only screen and (min-width: 1940px) {
