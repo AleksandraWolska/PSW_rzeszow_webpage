@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="./game1.js" defer></script>
+    <script src="./game2.js" defer></script>
+
+
+    <title>Document</title>
+</head>
+<body>
+
+
+    <h1>Game</h1>
+
+    <div class="game" id="game1"> 
+        
+        <label for="months-choice:">Zdadnij miesiąc</label><br>
+        <input list="months" id="months-choice" name="Wybierz jeden z poniższych" /> <br>
+        <datalist id="months">
+            <option value="Styczeń"></option>
+            <option value="Luty"></option>
+            <option value="Marzec"></option>
+            <option value="KWiecień"></option>
+            <option value="Maj"></option>
+            <option value="Czerwiec"></option>
+            <option value="Lipiec"></option>
+            <option value="Sierpień"></option>
+            <option value="Wrzesień"></option>
+            <option value="Październik"></option>
+            <option value="Listopad"></option>
+            <option value="Grudzień"></option>
+        </datalist>
+        <button class="game-button" id="game1-button">Check</button>
+
+        <div class="game-output" id="game1-output"></div>
+
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+
+
+    <div class="game" id="game2"> 
+        
+        <label for="numbers-choice:">Wybierz numer</label><br>
+        <input type="number" id="numbers-choice" name="Wybierz numer" /> <br>
+
+        <button class="game-button" id="game2-button">Check</button>
+
+        <div class="game-output" id="game2-output"></div>
+
+    </div>
+    
+</body>
+</html>
