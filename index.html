@@ -25,7 +25,7 @@
     </style>
 </head>
 
-<body>
+<body onkeydown="handleKeyDown(event)">
 
     <section id="welcome-section">
         <header class="header">
@@ -141,7 +141,7 @@
 
     </section>
 
-    <section id="childern-section">
+    <section id="children-section">
         <h2>Interaktywność dla najmłodszych</h2>
         <div><a href="./game/game.html">Gra</a></div>
         <div><button id="button-prompt">Wejdź w interakcję!</button>
@@ -190,6 +190,8 @@
                     alt="Zamek w Łańcucie" /></a>
             <p>Zamek w Łańcucie</p>
         </div>
+
+        <button id="more-attractions">Pokaż więcej</button>
     </section>
 
     <section id="statistics-section">
@@ -230,7 +232,7 @@
             <li>Na wieczór</li>
             <li>Na słodko
                 <ol>
-                    <li>Kawa</li>
+                    <li id="insert-elem">Kawa</li>
                     <li>Herbata</li>
                     <li>Lody
                         <ul>
@@ -252,6 +254,11 @@
         <p><a href="./subpages/additional_info.html">Rejestracja: dodatkowe
                 informacje</a></p>
 
+                <p><a href="./subpages/user.html">Wybór użytkownika</a></p>
+
+        
+        
+
         <p><a href="https://upload.wikimedia.org/wikipedia/commons/6/60/Fontanna_Multimedialna_w_Rzeszowie_2.jpg"
                 download>Pobierz obraz fontanny multimediatnej</a> - uwaga, nie zadziała ze względu na CORS (inna
             domena) </p>
@@ -260,6 +267,10 @@
             <p>Pobierz obraz rzeszowskiego ronda dla
                 pieszych</p>
         </a>
+
+        <a href="">link</a>
+        <a href="">link</a>
+        <a href="">link</a>
     </section>
 
 

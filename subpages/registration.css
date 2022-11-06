@@ -1,3 +1,17 @@
 input:required {
   background-color: greenyellow;
 }
+
+
+body {
+  width: 95vw;
+}
+#content {
+  width: max-content;
+  margin: auto;
+}
+
+
+form {
+  margin: 80px;
+}
