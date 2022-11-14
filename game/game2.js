@@ -1,4 +1,4 @@
-console.log("script work")
+
 const chosen_number = document.getElementById("numbers-choice");
 const output2 = document.getElementById("game2-output");
 const button2 = document.getElementById("game2-button")
@@ -7,7 +7,7 @@ const button2 = document.getElementById("game2-button")
 
 
 
-let counter2 = 1
+var counter2 = 1
 let drawed2 = -1;
 
 let gameHandler2 = () => {

@@ -1,6 +1,6 @@
 const prompt = require('prompt-sync')({ sigint: true });
 const drawed3 = Math.floor(Math.random() * 100) + 1;
-let found = false;
+var found = false;
 
 while (found == false) {
 

@@ -16,6 +16,7 @@ let gameHandler1 = () => {
 
     if (counter === 1) {
         drawed = possible_values[Math.floor((Math.random() * possible_values.length))].toLowerCase()
+        console.log(drawed)
     } else if (counter === 3) {
         output.innerHTML = chosen === drawed
             ? `Sukces!`
